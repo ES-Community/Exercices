@@ -54,3 +54,15 @@ Fix this code :
 - Only NodeJS packages are allowed.
 - You can use TypeScript,ES6 or Babel (like you want).
 - --harmony flag is allowed.
+
+# Solution terminal output 
+
+```
+Await loop
+Tasks processed!
+Task 4 done
+Task 2 done
+Task 3 done
+Task 1 done
+Tasks are done
+```

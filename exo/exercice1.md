@@ -1,6 +1,13 @@
-# Exo1 
+# Exercices 1 - Async control 
 
-Fix this code : 
+##### Description : 
+
+Something is not working correctly (fix the code).
+
+##### Expected :
+- Wait for task instanciation. 
+- Wait for task execution (log task resolution as well).
+- Log a final message.
 
 ##### ES6 Version : 
 
@@ -56,6 +63,8 @@ Fix this code :
 - --harmony flag is allowed.
 
 # Solution terminal output 
+
+Message can be edited by yourself for something that match your solution !
 
 ```
 Await loop

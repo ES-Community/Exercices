@@ -14,7 +14,7 @@ Something is not working correctly (fix the code).
 ```js
 ( () => {
     const taskArray = [];
-    var i = 1;
+    let i = 1;
 
     for(;i< 5 ;i++) {
         process.nextTick(() => {
@@ -37,7 +37,7 @@ Something is not working correctly (fix the code).
 (async () => {
 
     const taskArray : Promise<any>[] = [];
-    var i: number = 1;
+    let i: number = 1;
 
     for(;i< 5 ;i++) {
         process.nextTick(() => {

@@ -19,7 +19,7 @@ Rien ne vous interdit de faire vos propres fichiers (tant que le principe est le
 
 ## Contraintes
 
-- Seul les packages NodeJS sont autorisés.
+- Seul les packages du core NodeJS sont autorisés.
 - Nous n'attendons aucun système de cache.
 - L'utilisation de code Synchrone est interdite.
 

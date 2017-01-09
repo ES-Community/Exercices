@@ -14,6 +14,8 @@ const userValidation = new RegExp(/^[a-zA-z0-9]{3,10}$/);
 const messageRegex = new RegExp(/^(\/auth|\/msg|\/logout|\/exit)\s*(.*)$/);
 ```
 
+> Attention le serveur vous renverra un historique des messages lors de la connexion !
+
 ## Contraintes 
 
 - Utiliser uniquement les packages NodeJS pour vous connecter et tchater avec les autres.

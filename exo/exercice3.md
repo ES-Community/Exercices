@@ -30,3 +30,5 @@ const client = net.connect({port: 3000}, () => {
     console.log('connected to server!');
 });
 ```
+
+Le serveur distant pour l'exercice est `78.213.166.192:3000`

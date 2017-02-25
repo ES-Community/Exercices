@@ -62,6 +62,7 @@ assert.equal(something[Symbol.for('bar')], 'foo');
 
 // Difficulté 1.5
 assert.equal(Object.getOwnPropertyNames(something).length, 1); // les clés en string
+assert.equal([...Object.keys(something)].length, 1); // les clés énumérables en string
 assert.equal(Object.getOwnPropertySymbols(something).length, 2); // les clés en Symbol
 assert.equal(Reflect.ownKeys(something).length, 3); // toutes les clés
 

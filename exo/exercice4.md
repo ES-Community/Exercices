@@ -9,15 +9,14 @@ Sur une idée de [Fraxken](https://github.com/fraxken).
 Conçu et rédigé par [Purexo](https://github.com/Purexo).
 
 ## Description
-Vous est fournis un code à completer.
+Vous est fourni un code à completer.
 
-J'ai voulu cet exercice complet et accessibles à différents niveaux (via plusieurs paliers).  
+J'ai voulu cet exercice complet et accessible à différents niveaux (via plusieurs paliers).  
 Dans cet exercice vous allez pouvoir développer progressivement tout en étant guidé par des Tests Unitaires.
 
-L'idée générale à travers cette exercice est de trouver un moyen pour que ce qui s'applique à un objet ce répercute sur un autre et vice versa  
-tout en replongeant dans certaines bases méconnues du JS.
+L'idée générale à travers cet exercice est de trouver un moyen pour que ce qui s'applique à un objet se répercute sur un autre et vice versa, tout en replongeant dans certaines bases méconnues du JS.
 
-Vous aurez réussi l'exercice si tout les asserts passent. (une ligne apparaitra pour vous féliciter dans votre console)
+Vous aurez réussi l'exercice si tous les asserts passent (une ligne apparaitra pour vous féliciter dans votre console).
 
 ## Contraintes
 Ce sont les contraintes habituelles à nos exercices. c'est à dire :
@@ -93,11 +92,11 @@ assert.equal('new property' in something, false);
 /*
  * Exercice Terminé
  */
-console.log(`Félicitation, vous êtes arrivé au bout du script sans que les asserts ne lèvent d'exceptions`);
+console.log(`Félicitations, vous êtes arrivé au bout du script sans que les asserts ne lèvent d'exception`);
 
 // Bonus Point
-// Si vous êtes arrivés au bouts ce code devrait fonctionner sans soucis
-// ça permet de s'assurer que la map et something sont iso sous tout points de vues en termes de données stockés
+// Si vous êtes arrivés au bout, ce code devrait fonctionner sans souci
+// ça permet de s'assurer que la map et something sont iso sous tous points de vues en termes de données stockées
 // à décommenter si vous souhaitez vérifier
 
 /*
@@ -107,4 +106,3 @@ for (let [key, value] of duplicatedMapFromSomething) {
   assert.equal(value, map.get(key));
 }
 */
-```

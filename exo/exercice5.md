@@ -6,7 +6,9 @@ La structure de notre exercice sera celle-ci :
 
 ```
 A<-->B<-->C
+     ^
      | 
+     v
 F<-->D<-->E
 ```
 
@@ -29,8 +31,10 @@ Seul les packages du core NodeJS suivant sont autorisés :
 
 ```
 A<-->B<-->C
+^    ^
 |    | 
-<--->D<-->E
+v    v
+D----D<-->E
 ```
 
 **bonus:**

@@ -184,3 +184,5 @@ suite.add('forward#Event', function() {
 ```
 
 A noter que j'ai utiliser le package benchmark pour faire un benckmark de vitesse d'exécution plutôt classique (n'exprime pas la teneur en charge néanmoins).
+
+Je n'est pas non plus développer l'optimisation des chemins (celle-ci demanderait un travail de fond plus conséquent, sûrement autour du  gossip protocol je pense). Dans mon cas cela aurait été une perte de perf.
